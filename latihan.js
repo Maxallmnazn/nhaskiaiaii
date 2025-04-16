@@ -10,7 +10,7 @@ switch (true) {
     console.log ("KEREN PAEL REMED")
         break;
         case (pael >=61):
-    console.log ("PULANG AJA PEL")
+    console.log ("SEMOGA BERUNTUNG LAIN KALI")
         break;
     default:
         console.log("MANTAP RAPAEL")
