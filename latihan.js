@@ -1,22 +1,17 @@
-let nilai = 88; 
-
-let predikat;
+let pael = 68
 switch (true) {
-    case (nilai >= 90):
-        predikat = 'A';
+    case (pael >=91):
+    console.log ("ANJAY PAEL")
         break;
-    case (nilai >= 80):
-        predikat = 'B';
+    case (pael >=81):
+    console.log ("GAPAPA PEL")
         break;
-    case (nilai >= 70):
-        predikat = 'C';
+        case (pael >=71):
+    console.log ("KEREN PAEL REMED")
         break;
-    case (nilai >= 60):
-        predikat = 'D';
+        case (pael >=61):
+    console.log ("PULANG AJA PEL")
         break;
     default:
-        predikat = 'E';
+        console.log("MANTAP RAPAEL")
 }
-
-console.log(`Nilai siswa: ${nilai}`);
-console.log(`predikat siswa: ${predikat}`);
