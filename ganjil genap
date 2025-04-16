@@ -1,0 +1,18 @@
+let platnomor = ["B 444 JGN"]
+let tanggal= 5
+let dontol = platnomor[0].split(" ")
+let tanggalganjil = dontol%2===1 && tanggal %2===1
+let tanggalgenap = dontol%2===0 && tanggal %2===0
+
+
+switch (true) {
+    case tanggalganjil:
+        console.log("JALAN AJA BANG");
+        break;
+    case tanggalgenap:
+        console.log("jalan sono anj");
+        break;
+    default:
+        console.log("MAMPUS KETILANG");
+        break;
+}
